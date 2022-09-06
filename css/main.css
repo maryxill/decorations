@@ -180,6 +180,9 @@ body {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
+    background-image: url(../img/polygon1.svg);
+    background-repeat: no-repeat;
+    background-position: 95% center;
 }
 
 .form__input {
@@ -190,7 +193,7 @@ body {
 .form__select, .form__input {
     font-size: 20px;
     border: 1px solid var(--bgLink);
-    background: var(--lightColor);
+    background-color: var(--lightColor);
     padding: 17px 26px;
     box-sizing: border-box;
 }
